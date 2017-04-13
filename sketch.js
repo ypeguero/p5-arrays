@@ -6,7 +6,7 @@ function setup(){
 }
 
 function draw(){
-    background(0);
+    background(194, 84, 179);
     
    for(var i = 0; i < 4;  i++){
        ellipse((i+1)*100,200,numbers[i], numbers[i]);
